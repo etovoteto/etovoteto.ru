@@ -8,7 +8,6 @@ import AutoImport from 'unplugin-auto-import/vite'
 
 
 export default defineConfig({
-  
   plugins: [
     //@ts-ignore
     AutoImport({
