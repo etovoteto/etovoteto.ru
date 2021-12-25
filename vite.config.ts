@@ -50,7 +50,7 @@ export default defineConfig({
         dirs: ['.vitepress'],
         include: ['index.md'],
         exclude: ['**/examples/**/*'],
-        fileExtensions: ['vue', 'ts'],
+        fileExtensions: ['vue', 'ts','md'],
       },
     }),
   ],

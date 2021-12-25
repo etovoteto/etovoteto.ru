@@ -1,3 +1,5 @@
+// https://github.com/Edwin-Pratt/js-markov
+// https://bespoyasov.ru/blog/text-generation-with-markov-chains/
 import Markov from "js-markov";
 var markov = new Markov();
 
