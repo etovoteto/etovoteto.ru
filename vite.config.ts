@@ -8,6 +8,9 @@ import AutoImport from 'unplugin-auto-import/vite'
 
 
 export default defineConfig({
+  server: {
+    port:3022
+  },
   plugins: [
     //@ts-ignore
     AutoImport({
