@@ -5,9 +5,6 @@ import colors from 'windicss/colors'
 
 export default defineConfig({
   darkMode: 'class',
-  shortcuts: {
-    bc: 'border-gray-300 dark:border-true-gray-600',
-  },
   plugins: [
     require('windicss/plugin/scroll-snap')
   ],
@@ -23,8 +20,6 @@ export default defineConfig({
       },
       colors: {
         bg: 'var(--c-bg)',
-        gray: colors.trueGray,
-        tg: colors.trueGray,
       },
       boxShadow: {
         box: '0px 5px 15px 0px rgba(0, 0, 0, 0.35)',
